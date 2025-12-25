@@ -1,0 +1,366 @@
+{
+  "conversation_id": "5b5cc4b5-72f6-4e3f-a63b-b0af04a19b58",
+  "user_id": "test_user_1766657998",
+  "test_timestamp": 1766658376.6682456,
+  "conversation_history": [
+    {
+      "turn": 1,
+      "user_message": "My name is Alex, I'm 26 years old, and I live in Berlin.",
+      "assistant_response": "Nice to meet you, Alex! It's great to know a bit about you. Living in Berlin must be exciting, with its vibrant culture and rich history. What do you enjoy the most about living there?",
+      "tokens_used": 116,
+      "context_tokens": 0,
+      "response_tokens": 0,
+      "timestamp": null
+    },
+    {
+      "turn": 2,
+      "user_message": "I work as a backend engineer, mostly using Python and FastAPI.",
+      "assistant_response": "That sounds like a rewarding job, especially with the growing popularity of FastAPI for building APIs! How have you been finding your work as a backend engineer? Are there any particular projects you're excited about or technologies you're looking to explore further?",
+      "tokens_used": 187,
+      "context_tokens": 89,
+      "response_tokens": 47,
+      "timestamp": null
+    },
+    {
+      "turn": 3,
+      "user_message": "I prefer short, structured answers with bullet points.",
+      "assistant_response": "Got it! Here’s a structured response for you:\n\n- Work: Backend Engineer\n- Technologies: Python, FastAPI\n- Projects: (Feel free to share any you find exciting)\n- Interests: (Any specific technologies or areas you want to explore?)\n\nLet me know what you'd like to add!",
+      "tokens_used": 268,
+      "context_tokens": 156,
+      "response_tokens": 61,
+      "timestamp": null
+    },
+    {
+      "turn": 4,
+      "user_message": "I'm currently building a SaaS product for small e-commerce businesses.",
+      "assistant_response": "That sounds interesting! Here are a few points to consider:\n\n- **Product**: SaaS for small e-commerce businesses\n- **Goals**: Help businesses manage their operations more efficiently\n- **Features**: (What features are you planning to include?)\n- **Challenges**: (Any specific challenges you’re facing?)\n\nFeel free to expand or provide more details!",
+      "tokens_used": 365,
+      "context_tokens": 240,
+      "response_tokens": 74,
+      "timestamp": null
+    },
+    {
+      "turn": 5,
+      "user_message": "The SaaS is called ShopMind, and it focuses on customer analytics.",
+      "assistant_response": "Great name! Here’s a summary based on what you've shared:\n\n- **Product Name**: ShopMind\n- **Type**: SaaS for small e-commerce businesses\n- **Focus**: Customer analytics\n- **Goal**: Help businesses understand customer behavior and improve decision-making\n\nDo you have any specific features in mind for ShopMind, or are there any particular customer insights you aim to provide?",
+      "tokens_used": 472,
+      "context_tokens": 339,
+      "response_tokens": 82,
+      "timestamp": null
+    },
+    {
+      "turn": 6,
+      "user_message": "Actually, correct something: I'm 27, not 26.",
+      "assistant_response": "Got it! Here’s the updated information:\n\n- **Age**: 27 \n\nIf there's anything else you'd like to update or share about your project or interests, just let me know!",
+      "tokens_used": 631,
+      "context_tokens": 542,
+      "response_tokens": 38,
+      "timestamp": null
+    },
+    {
+      "turn": 7,
+      "user_message": "I want ShopMind to support English and German, but English should be the default.",
+      "assistant_response": "That’s a great choice for inclusivity! Here are the updated preferences for ShopMind:\n\n- **Supported Languages**: English (default) and German\n- **Goal**: Cater to a broader audience in e-commerce\n\nIf you need any tips on implementing multilingual support or anything else, feel free to ask!",
+      "tokens_used": 656,
+      "context_tokens": 542,
+      "response_tokens": 63,
+      "timestamp": null
+    },
+    {
+      "turn": 8,
+      "user_message": "I don't like overly technical explanations unless I explicitly ask for them.",
+      "assistant_response": "Understood! I’ll keep my explanations clear and straightforward unless you request more technical details. If there's anything specific you'd like to know or discuss about ShopMind or any other topic, just let me know!",
+      "tokens_used": 653,
+      "context_tokens": 561,
+      "response_tokens": 41,
+      "timestamp": null
+    },
+    {
+      "turn": 9,
+      "user_message": "My main priority right now is user retention, not acquisition.",
+      "assistant_response": "Got it! Here’s a focused summary for your current priority:\n\n- **Main Priority**: User retention over acquisition\n- **Focus**: Improve customer engagement and satisfaction to reduce churn\n\nIf you’d like to explore strategies for user retention or any specific features in ShopMind to support this, just let me know!",
+      "tokens_used": 655,
+      "context_tokens": 540,
+      "response_tokens": 64,
+      "timestamp": null
+    },
+    {
+      "turn": 10,
+      "user_message": "Remember that I usually work late at night, between 9 PM and 1 AM.",
+      "assistant_response": "Noted! Here’s the additional information about your working hours:\n\n- **Typical Work Hours**: 9 PM to 1 AM\n\nIf you need any assistance during those hours or tips for productivity while working late, feel free to ask!",
+      "tokens_used": 633,
+      "context_tokens": 533,
+      "response_tokens": 49,
+      "timestamp": null
+    },
+    {
+      "turn": 11,
+      "user_message": "For ShopMind, I'm considering using PostgreSQL and Redis. Don't suggest MongoDB unless I ask.",
+      "assistant_response": "Got it! Here’s the updated technology preference for ShopMind:\n\n- **Database Choices**: \n  - **Primary**: PostgreSQL\n  - **Caching/Session**: Redis\n- **Note**: No suggestions for MongoDB unless requested\n\nIf you need any guidance on using PostgreSQL and Redis together or any specific features, just let me know!",
+      "tokens_used": 713,
+      "context_tokens": 588,
+      "response_tokens": 74,
+      "timestamp": null
+    },
+    {
+      "turn": 12,
+      "user_message": "If I say \"dashboard\", I always mean a web dashboard, not mobile.",
+      "assistant_response": "Understood! When you mention \"dashboard,\" I will assume you are referring to a web dashboard only. If you have any specific features or designs in mind for the dashboard in ShopMind, feel free to share!",
+      "tokens_used": 717,
+      "context_tokens": 623,
+      "response_tokens": 43,
+      "timestamp": null
+    },
+    {
+      "turn": 13,
+      "user_message": "In conversations, when I say \"metrics\", I'm referring to DAU, churn, and LTV only.",
+      "assistant_response": "Got it! When you mention \"metrics,\" I will understand that you are referring to:\n\n- **DAU** (Daily Active Users)\n- **Churn**\n- **LTV** (Customer Lifetime Value)\n\nIf you want to discuss specific strategies or insights related to these metrics, just let me know!",
+      "tokens_used": 725,
+      "context_tokens": 612,
+      "response_tokens": 62,
+      "timestamp": null
+    },
+    {
+      "turn": 14,
+      "user_message": "I might later ask you to write emails or specs, and I want them to be concise and professional.",
+      "assistant_response": "Noted! If you request assistance with emails or specifications, I will ensure they are:\n\n- **Concise**\n- **Professional**\n\nFeel free to ask whenever you need help with that!",
+      "tokens_used": 731,
+      "context_tokens": 642,
+      "response_tokens": 38,
+      "timestamp": null
+    },
+    {
+      "turn": 15,
+      "user_message": "Important: if you ever summarize my project, mention that it targets small e-commerce teams, not enterprises.",
+      "assistant_response": "Understood! When summarizing your project, ShopMind, I will specify that it targets small e-commerce teams, not enterprises. If you need a summary or any specific details highlighted, just let me know!",
+      "tokens_used": 712,
+      "context_tokens": 619,
+      "response_tokens": 42,
+      "timestamp": null
+    },
+    {
+      "turn": 16,
+      "user_message": "Quick question: what stack am I using for my SaaS?",
+      "assistant_response": "For your SaaS product, ShopMind, you are using the following stack:\n\n- **Backend**: Python with FastAPI\n- **Database**: PostgreSQL (Primary)\n- **Caching/Session**: Redis\n\nIf you need more details or have further questions about your tech stack, feel free to ask!",
+      "tokens_used": 865,
+      "context_tokens": 750,
+      "response_tokens": 64,
+      "timestamp": null
+    },
+    {
+      "turn": 17,
+      "user_message": "Remind me what languages ShopMind supports and which one is default.",
+      "assistant_response": "ShopMind supports the following languages:\n\n- **English** (default)\n- **German**\n\nIf you need assistance with multilingual features or anything else related to language support, let me know!",
+      "tokens_used": 826,
+      "context_tokens": 738,
+      "response_tokens": 37,
+      "timestamp": null
+    },
+    {
+      "turn": 18,
+      "user_message": "It's 11:30 PM right now. Based on what you know, is this a normal working hour for me?",
+      "assistant_response": "Yes, 11:30 PM is a normal working hour for you. You typically work late at night, between 9 PM and 1 AM. If you need help with anything during this time, feel free to ask!",
+      "tokens_used": 831,
+      "context_tokens": 734,
+      "response_tokens": 46,
+      "timestamp": null
+    },
+    {
+      "turn": 19,
+      "user_message": "Can you suggest metrics to track on my dashboard?",
+      "assistant_response": "Certainly! Here are some key metrics to track on your dashboard for ShopMind:\n\n- **Daily Active Users (DAU)**: Measures the number of unique users engaging with the platform daily.\n- **Churn Rate**: Calculates the percentage of customers who stop using the service over a specific period.\n- **Customer Lifetime Value (LTV)**: Estimates the total revenue expected from a customer throughout their relationship with your business.\n- **User Engagement**: Tracks interactions per user, such as page views or feature usage.\n- **Retention Rate**: Measures how well you keep customers over time.\n- **Conversion Rate**: Percentage of users who complete a desired action (e.g., subscription sign-up).\n\nIf you need more specific metrics or have other ideas in mind, let me know!",
+      "tokens_used": 916,
+      "context_tokens": 707,
+      "response_tokens": 158,
+      "timestamp": null
+    },
+    {
+      "turn": 20,
+      "user_message": "Please summarize my profile and my project in 5 bullet points, respecting all my preferences.",
+      "assistant_response": "Sure! Here’s a summary of your profile and your project, ShopMind:\n\n- **User**: Alex, 27 years old, located in Berlin, works as a Backend Engineer.\n- **Technologies**: Utilizes Python and FastAPI for backend development, with PostgreSQL as the primary database and Redis for caching/session management.\n- **Project Type**: ShopMind is a SaaS product designed for small e-commerce businesses.\n- **Focus**: Aims to provide customer analytics to help businesses understand customer behavior and improve decision-making.\n- **Language Support**: Supports English (default) and German, with a priority on user retention through improved customer engagement.\n\nLet me know if you need any adjustments or additional information!",
+      "tokens_used": 1022,
+      "context_tokens": 824,
+      "response_tokens": 147,
+      "timestamp": null
+    },
+    {
+      "turn": 21,
+      "user_message": "What's my name?",
+      "assistant_response": "Your name is Alex. If you have any other questions or need further assistance, feel free to ask!",
+      "tokens_used": 1129,
+      "context_tokens": 1057,
+      "response_tokens": 21,
+      "validation_query": true,
+      "expected": "Alex"
+    },
+    {
+      "turn": 22,
+      "user_message": "How old am I?",
+      "assistant_response": "You are 27 years old. If there's anything else you need, just let me know!",
+      "tokens_used": 1075,
+      "context_tokens": 1005,
+      "response_tokens": 19,
+      "validation_query": true,
+      "expected": "27"
+    },
+    {
+      "turn": 23,
+      "user_message": "What's my project called?",
+      "assistant_response": "Your project is called ShopMind. If you need more information or assistance regarding it, feel free to ask!",
+      "tokens_used": 1041,
+      "context_tokens": 968,
+      "response_tokens": 22,
+      "validation_query": true,
+      "expected": "ShopMind"
+    },
+    {
+      "turn": 24,
+      "user_message": "What languages does ShopMind support?",
+      "assistant_response": "ShopMind supports English (default) and German. If you have any further questions or topics to discuss, let me know!",
+      "tokens_used": 1017,
+      "context_tokens": 941,
+      "response_tokens": 25,
+      "validation_query": true,
+      "expected": "English"
+    },
+    {
+      "turn": 25,
+      "user_message": "What metrics should I track?",
+      "assistant_response": "You should track the following metrics for ShopMind:\n\n- **DAU (Daily Active Users)**: Measures user engagement on a daily basis.\n- **Churn Rate**: Indicates the percentage of customers who stop using your service over a specific period.\n- **LTV (Customer Lifetime Value)**: Estimates the total revenue you can expect from a customer throughout their engagement with your service.\n\nIf you need more details or additional metrics, just let me know!",
+      "tokens_used": 938,
+      "context_tokens": 796,
+      "response_tokens": 91,
+      "validation_query": true,
+      "constraint_test": "metrics"
+    },
+    {
+      "turn": 26,
+      "user_message": "How old am I?",
+      "assistant_response": "You are 27 years old. If there's anything else you'd like to know, just ask!",
+      "tokens_used": 939,
+      "context_tokens": 869,
+      "response_tokens": 19,
+      "validation_query": true,
+      "correction_test": "age"
+    }
+  ],
+  "memory_state": {
+    "conversation_id": "5b5cc4b5-72f6-4e3f-a63b-b0af04a19b58",
+    "short_term_turns": 10,
+    "long_term_summaries": 4,
+    "semantic_results": 0,
+    "total_context_tokens": 1030,
+    "total_turns": 40,
+    "summaries": [
+      {
+        "turn_range": [
+          1,
+          10
+        ],
+        "summary": "**Conversation Summary:**\n\n- **User**: Alex\n  - Age: 26\n  - Location: Berlin\n  - Occupation: Backend Engineer\n  - Technologies used: Python, FastAPI\n  - Current Project: Building a SaaS product called ShopMind\n  \n- **ShopMind**:\n  - Type: SaaS for small e-commerce businesses\n  - Focus: Customer analytics\n  - Goal: Help businesses understand customer behavior and improve decision-making\n\n**User Preferences**: Prefers short, structured answers with bullet points.",
+        "key_facts": null
+      },
+      {
+        "turn_range": [
+          11,
+          20
+        ],
+        "summary": "The user corrected their age to 27. They want their project, ShopMind, to support English (default) and German. The user prefers straightforward explanations, avoiding overly technical details unless requested. Their main priority is user retention rather than acquisition, focusing on improving customer engagement. The user typically works late at night, between 9 PM and 1 AM.",
+        "key_facts": null
+      },
+      {
+        "turn_range": [
+          21,
+          30
+        ],
+        "summary": "**Summary of the Conversation:**\n\n- **Technology for ShopMind**:\n  - **Database**: PostgreSQL (Primary)\n  - **Caching/Session**: Redis\n  - **No suggestions for**: MongoDB unless requested\n\n- **Terminology Clarifications**:\n  - **Dashboard**: Refers specifically to a web dashboard, not mobile.\n  - **Metrics**: Refers to DAU (Daily Active Users), churn, and LTV (Customer Lifetime Value) only.\n\n- **Writing Preferences**:\n  - Emails and specs should be concise and professional.\n\n- **Project Summary**: ShopMind targets small e-commerce teams, not enterprises.",
+        "key_facts": null
+      },
+      {
+        "turn_range": [
+          31,
+          40
+        ],
+        "summary": "Here’s a summary of your profile and your project, ShopMind:\n\n- **User**: Alex, 27 years old, located in Berlin, works as a Backend Engineer.\n- **Technologies**: Uses Python with FastAPI for backend, PostgreSQL as the primary database, and Redis for caching/session management.\n- **Project Type**: ShopMind is a SaaS product aimed at small e-commerce businesses.\n- **Focus**: Designed to provide customer analytics to enhance understanding of customer behavior and improve decision-making.\n- **Language Support**: Supports English (default) and German, focusing on user retention through enhanced customer engagement.",
+        "key_facts": null
+      }
+    ]
+  },
+  "expected_facts": {
+    "name": "Alex",
+    "age": "27",
+    "location": "Berlin",
+    "profession": "backend engineer",
+    "stack": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Redis"
+    ],
+    "project_name": "ShopMind",
+    "project_focus": "customer analytics",
+    "target_audience": "small e-commerce teams",
+    "languages": [
+      "English",
+      "German"
+    ],
+    "default_language": "English",
+    "working_hours": "9 PM to 1 AM"
+  },
+  "expected_constraints": {
+    "answer_style": "short_bullet_points",
+    "technical_depth": "minimal_unless_asked",
+    "metrics_definition": [
+      "DAU",
+      "churn",
+      "LTV"
+    ],
+    "dashboard_definition": "web",
+    "banned_tech": [
+      "MongoDB"
+    ],
+    "priority": "user retention"
+  },
+  "test_results": [
+    {
+      "name": "Summaries Created",
+      "passed": true,
+      "message": "Expected > 0, got 4"
+    },
+    {
+      "name": "Total Turns",
+      "passed": true,
+      "message": "Expected >= 20, got 40"
+    },
+    {
+      "name": "Recall: What's my name?",
+      "passed": true,
+      "message": "Expected 'Alex' in answer, got: Your name is Alex. If you have any other questions or need further assistance, feel free to ask!"
+    },
+    {
+      "name": "Recall: How old am I?",
+      "passed": true,
+      "message": "Expected '27' in answer, got: You are 27 years old. If there's anything else you need, just let me know!"
+    },
+    {
+      "name": "Recall: What's my project called?",
+      "passed": true,
+      "message": "Expected 'ShopMind' in answer, got: Your project is called ShopMind. If you need more information or assistance regarding it, feel free "
+    },
+    {
+      "name": "Recall: What languages does ShopMind support?",
+      "passed": true,
+      "message": "Expected 'English' in answer, got: ShopMind supports English (default) and German. If you have any further questions or topics to discu"
+    },
+    {
+      "name": "Constraint Enforcement (Metrics)",
+      "passed": true,
+      "message": "Found forbidden metrics in answer: []"
+    },
+    {
+      "name": "Correction Remembered (Age)",
+      "passed": true,
+      "message": "Expected age 27, answer: You are 27 years old. If there's anything else you'd like to know, just ask!"
+    }
+  ]
+}

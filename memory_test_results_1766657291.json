@@ -1,0 +1,257 @@
+{
+  "conversation_id": "33c5e1fa-7b1a-4de5-a7f0-581297e41807",
+  "user_id": "test_user_1766657048",
+  "test_timestamp": 1766657291.4151163,
+  "conversation_history": [
+    {
+      "turn": 1,
+      "user_message": "My name is Alex, I'm 26 years old, and I live in Berlin.",
+      "assistant_response": "Nice to meet you, Alex! So, you’re 26 and living in Berlin. How do you like life in the city?",
+      "tokens_used": 102,
+      "context_tokens": 0,
+      "response_tokens": 0,
+      "timestamp": null
+    },
+    {
+      "turn": 2,
+      "user_message": "I work as a backend engineer, mostly using Python and FastAPI.",
+      "assistant_response": "That sounds interesting, Alex! Working with Python and FastAPI must keep you engaged with some modern web development practices. What do you enjoy most about your work as a backend engineer?",
+      "tokens_used": 162,
+      "context_tokens": 75,
+      "response_tokens": 36,
+      "timestamp": null
+    },
+    {
+      "turn": 3,
+      "user_message": "I prefer short, structured answers with bullet points.",
+      "assistant_response": "Got it, Alex! Here’s a structured response:\n\n- **Enjoyment in Work**:\n  - Problem-solving challenges\n  - Building efficient APIs\n  - Continuous learning with new technologies\n  - Collaboration with frontend developers\n\nLet me know if you want to discuss more!",
+      "tokens_used": 238,
+      "context_tokens": 131,
+      "response_tokens": 56,
+      "timestamp": null
+    },
+    {
+      "turn": 4,
+      "user_message": "I'm currently building a SaaS product for small e-commerce businesses.",
+      "assistant_response": null,
+      "error": "Server error '500 Internal Server Error' for url 'http://localhost:8006/api/conversations/33c5e1fa-7b1a-4de5-a7f0-581297e41807/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+      "status_code": 500
+    },
+    {
+      "turn": 5,
+      "user_message": "The SaaS is called ShopMind, and it focuses on customer analytics.",
+      "assistant_response": null,
+      "error": "Server error '500 Internal Server Error' for url 'http://localhost:8006/api/conversations/33c5e1fa-7b1a-4de5-a7f0-581297e41807/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+      "status_code": 500
+    },
+    {
+      "turn": 6,
+      "user_message": "Actually, correct something: I'm 27, not 26.",
+      "assistant_response": null,
+      "error": "Server error '500 Internal Server Error' for url 'http://localhost:8006/api/conversations/33c5e1fa-7b1a-4de5-a7f0-581297e41807/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+      "status_code": 500
+    },
+    {
+      "turn": 7,
+      "user_message": "I want ShopMind to support English and German, but English should be the default.",
+      "assistant_response": null,
+      "error": "Server error '500 Internal Server Error' for url 'http://localhost:8006/api/conversations/33c5e1fa-7b1a-4de5-a7f0-581297e41807/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+      "status_code": 500
+    },
+    {
+      "turn": 8,
+      "user_message": "I don't like overly technical explanations unless I explicitly ask for them.",
+      "assistant_response": null,
+      "error": "Server error '500 Internal Server Error' for url 'http://localhost:8006/api/conversations/33c5e1fa-7b1a-4de5-a7f0-581297e41807/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+      "status_code": 500
+    },
+    {
+      "turn": 9,
+      "user_message": "My main priority right now is user retention, not acquisition.",
+      "assistant_response": null,
+      "error": "Server error '500 Internal Server Error' for url 'http://localhost:8006/api/conversations/33c5e1fa-7b1a-4de5-a7f0-581297e41807/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+      "status_code": 500
+    },
+    {
+      "turn": 10,
+      "user_message": "Remember that I usually work late at night, between 9 PM and 1 AM.",
+      "assistant_response": null,
+      "error": "Server error '500 Internal Server Error' for url 'http://localhost:8006/api/conversations/33c5e1fa-7b1a-4de5-a7f0-581297e41807/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+      "status_code": 500
+    },
+    {
+      "turn": 11,
+      "user_message": "For ShopMind, I'm considering using PostgreSQL and Redis. Don't suggest MongoDB unless I ask.",
+      "assistant_response": null,
+      "error": "Server error '500 Internal Server Error' for url 'http://localhost:8006/api/conversations/33c5e1fa-7b1a-4de5-a7f0-581297e41807/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+      "status_code": 500
+    },
+    {
+      "turn": 12,
+      "user_message": "If I say \"dashboard\", I always mean a web dashboard, not mobile.",
+      "assistant_response": null,
+      "error": "Server error '500 Internal Server Error' for url 'http://localhost:8006/api/conversations/33c5e1fa-7b1a-4de5-a7f0-581297e41807/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+      "status_code": 500
+    },
+    {
+      "turn": 13,
+      "user_message": "In conversations, when I say \"metrics\", I'm referring to DAU, churn, and LTV only.",
+      "assistant_response": null,
+      "error": "Server error '500 Internal Server Error' for url 'http://localhost:8006/api/conversations/33c5e1fa-7b1a-4de5-a7f0-581297e41807/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+      "status_code": 500
+    },
+    {
+      "turn": 14,
+      "user_message": "I might later ask you to write emails or specs, and I want them to be concise and professional.",
+      "assistant_response": null,
+      "error": "Server error '500 Internal Server Error' for url 'http://localhost:8006/api/conversations/33c5e1fa-7b1a-4de5-a7f0-581297e41807/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+      "status_code": 500
+    },
+    {
+      "turn": 15,
+      "user_message": "Important: if you ever summarize my project, mention that it targets small e-commerce teams, not enterprises.",
+      "assistant_response": null,
+      "error": "Server error '500 Internal Server Error' for url 'http://localhost:8006/api/conversations/33c5e1fa-7b1a-4de5-a7f0-581297e41807/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+      "status_code": 500
+    },
+    {
+      "turn": 16,
+      "user_message": "Quick question: what stack am I using for my SaaS?",
+      "assistant_response": null,
+      "error": "Server error '500 Internal Server Error' for url 'http://localhost:8006/api/conversations/33c5e1fa-7b1a-4de5-a7f0-581297e41807/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+      "status_code": 500
+    },
+    {
+      "turn": 17,
+      "user_message": "Remind me what languages ShopMind supports and which one is default.",
+      "assistant_response": null,
+      "error": "Server error '500 Internal Server Error' for url 'http://localhost:8006/api/conversations/33c5e1fa-7b1a-4de5-a7f0-581297e41807/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+      "status_code": 500
+    },
+    {
+      "turn": 18,
+      "user_message": "It's 11:30 PM right now. Based on what you know, is this a normal working hour for me?",
+      "assistant_response": null,
+      "error": "Server error '500 Internal Server Error' for url 'http://localhost:8006/api/conversations/33c5e1fa-7b1a-4de5-a7f0-581297e41807/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+      "status_code": 500
+    },
+    {
+      "turn": 19,
+      "user_message": "Can you suggest metrics to track on my dashboard?",
+      "assistant_response": null,
+      "error": "Server error '500 Internal Server Error' for url 'http://localhost:8006/api/conversations/33c5e1fa-7b1a-4de5-a7f0-581297e41807/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+      "status_code": 500
+    },
+    {
+      "turn": 20,
+      "user_message": "Please summarize my profile and my project in 5 bullet points, respecting all my preferences.",
+      "assistant_response": null,
+      "error": "Server error '500 Internal Server Error' for url 'http://localhost:8006/api/conversations/33c5e1fa-7b1a-4de5-a7f0-581297e41807/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+      "status_code": 500
+    },
+    {
+      "turn": 21,
+      "user_message": "What's my name?",
+      "assistant_response": null,
+      "error": "Server disconnected without sending a response.",
+      "validation_query": true,
+      "expected": "Alex"
+    },
+    {
+      "turn": 22,
+      "user_message": "How old am I?",
+      "assistant_response": null,
+      "error": "Server disconnected without sending a response.",
+      "validation_query": true,
+      "expected": "27"
+    },
+    {
+      "turn": 23,
+      "user_message": "What's my project called?",
+      "assistant_response": null,
+      "error": "Server disconnected without sending a response.",
+      "validation_query": true,
+      "expected": "ShopMind"
+    },
+    {
+      "turn": 24,
+      "user_message": "What languages does ShopMind support?",
+      "assistant_response": null,
+      "error": "Server disconnected without sending a response.",
+      "validation_query": true,
+      "expected": "English"
+    },
+    {
+      "turn": 25,
+      "user_message": "What metrics should I track?",
+      "assistant_response": null,
+      "error": "Server disconnected without sending a response.",
+      "validation_query": true,
+      "constraint_test": "metrics"
+    },
+    {
+      "turn": 26,
+      "user_message": "How old am I?",
+      "assistant_response": null,
+      "error": "Server disconnected without sending a response.",
+      "validation_query": true,
+      "correction_test": "age"
+    }
+  ],
+  "memory_state": {
+    "conversation_id": "33c5e1fa-7b1a-4de5-a7f0-581297e41807",
+    "short_term_turns": 10,
+    "long_term_summaries": 0,
+    "semantic_results": 0,
+    "total_context_tokens": 231,
+    "total_turns": 23,
+    "summaries": []
+  },
+  "expected_facts": {
+    "name": "Alex",
+    "age": "27",
+    "location": "Berlin",
+    "profession": "backend engineer",
+    "stack": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Redis"
+    ],
+    "project_name": "ShopMind",
+    "project_focus": "customer analytics",
+    "target_audience": "small e-commerce teams",
+    "languages": [
+      "English",
+      "German"
+    ],
+    "default_language": "English",
+    "working_hours": "9 PM to 1 AM"
+  },
+  "expected_constraints": {
+    "answer_style": "short_bullet_points",
+    "technical_depth": "minimal_unless_asked",
+    "metrics_definition": [
+      "DAU",
+      "churn",
+      "LTV"
+    ],
+    "dashboard_definition": "web",
+    "banned_tech": [
+      "MongoDB"
+    ],
+    "priority": "user retention"
+  },
+  "test_results": [
+    {
+      "name": "Summaries Created",
+      "passed": false,
+      "message": "Expected > 0, got 0"
+    },
+    {
+      "name": "Total Turns",
+      "passed": true,
+      "message": "Expected >= 20, got 23"
+    }
+  ]
+}

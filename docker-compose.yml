@@ -1,0 +1,88 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: conversational-ai-postgres
+    environment:
+      POSTGRES_USER: conv_user
+      POSTGRES_PASSWORD: conv_pass
+      POSTGRES_DB: conv_db
+    ports:
+      - "5440:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./docker/postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U conv_user -d conv_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - conv-network
+
+  qdrant:
+    image: qdrant/qdrant:v1.7.0
+    container_name: conversational-ai-qdrant
+    ports:
+      - "6339:6333"
+      - "6340:6334"
+    volumes:
+      - qdrant_data:/qdrant/storage
+    healthcheck:
+      test: ["CMD-SHELL", "wget --no-verbose --tries=1 --spider http://localhost:6333/health || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    networks:
+      - conv-network
+
+  redis:
+    image: redis:7-alpine
+    container_name: conversational-ai-redis
+    ports:
+      - "6385:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    networks:
+      - conv-network
+
+  conversation-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: conversational-ai-service
+    depends_on:
+      postgres:
+        condition: service_healthy
+      qdrant:
+        condition: service_started
+      redis:
+        condition: service_healthy
+    ports:
+      - "8006:8000"
+    environment:
+      - DATABASE_URL=postgresql://conv_user:conv_pass@postgres:5432/conv_db
+      - QDRANT_URL=http://qdrant:6333
+      - REDIS_URL=redis://redis:6379
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - ./app:/app/app
+    networks:
+      - conv-network
+
+volumes:
+  postgres_data:
+  qdrant_data:
+  redis_data:
+
+networks:
+  conv-network:
+    driver: bridge
+
